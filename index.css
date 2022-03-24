@@ -1,0 +1,57 @@
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.container{
+    box-shadow: 0 4px 8px 0 hsla(0, 100%, 1%, 0.5);
+    position: relative;
+
+} 
+.card img{
+    width: 500px;
+}
+.card .content{
+height: 150px;
+text-align: center;
+}
+  
+select{
+    margin-bottom: 20px;
+
+}
+button{
+    width: auto;
+    border: none;
+    color: #ffffff;
+    background-color: hsl(120, 67%, 47%);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#p1Btn {
+    background-color: hsl(249, 85%, 50%);
+    width: 50%;
+    height: 40%;
+    
+}
+#p2Btn{
+    background-color: #771faa;
+    width: 50%;
+    margin-left: -4px;
+    height: 40%;
+}
+
+#reset{
+    background-color: #f50e0ef6;
+}
+
+.winner{
+    color:#12a512;
+}
+.loser{
+    color:#ff0000;
+}
